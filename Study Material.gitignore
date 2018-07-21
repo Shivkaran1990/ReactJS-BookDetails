@@ -1,0 +1,14 @@
+Reducer : its a simple function which return peace of application state.
+becase our application can have peace of mutiple state.so for this we can have diffrent reducer.
+reducer produce the value of state.
+
+react and redux are two sprat library.
+
+Container : its jst a component which have direct access to the state produce by react-redux.
+dump : no direct conection to react
+smart :
+
+exp: Like we have app component which doesnt care about book list or active book list changes.so its dump component.
+so in our app booklist and bookdetails are smart component which will be in cotainer. and app is dump component.
+
+we only create the component to cotainer if its holding peace of state.
